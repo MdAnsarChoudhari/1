@@ -3,5 +3,5 @@ def convert(celcius):
     return f" fahrenticies {fahrenticies}"
 
 if __name__ == "__main__":
-    c = int(input("Enter Celcius : "))
-    print(convert(c))
+    
+    print(convert(30))
