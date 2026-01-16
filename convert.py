@@ -6,6 +6,7 @@ def convert():
     print(f" fahrenticies {fahrenticies}")
 
 if __name__ == "__main__":
+    celcius=25
     convert()
 
 
