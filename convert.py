@@ -1,12 +1,7 @@
-def convert():
-    celcius=int(input("Enter Celcius : "))
-
-    fahrenticies=(celcius*9/5)+32
-
-    print(f" fahrenticies {fahrenticies}")
+def convert(celcius):
+    fahrenticies = (celcius * 9 / 5) + 32
+    return f" fahrenticies {fahrenticies}"
 
 if __name__ == "__main__":
-    celcius=25
-    convert()
-
-
+    c = int(input("Enter Celcius : "))
+    print(convert(c))
