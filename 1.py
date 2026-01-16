@@ -1,13 +1,6 @@
-import sys
+def convert():
+    celcius=int(input("Enter Celcius : "))
 
-if(len(sys.argv))==2:
-    script_name=sys.argv[0]
-    celcius=float(sys.argv[1])
+    fahrenticies=(celcius*9/5)+32
 
-    fahrenheit=(celcius*9/5)+32
-    print(f"{celcius} degree Celsius is equal to {fahrenheit} degree Fahrenheit")
-else:
-    script_name=sys.argv[0]
-    celcius=25.0
-    fahrenheit=(celcius*9/5)+32
-    print(f"{celcius} degree Celsius is equal to {fahrenheit} degree Fahrenheit")
+    print(f" fahrenticies {fahrenticies}")
